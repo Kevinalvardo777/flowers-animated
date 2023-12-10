@@ -1327,12 +1327,18 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .animated-text {
   font-family: 'Arial', sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   color: #ffffff; /* Color del texto */
+  
+  width: 400px;
+  padding: 24px;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 2s ease-out forwards, moveUp 2s ease-out forwards;
